@@ -63,7 +63,7 @@ void setup()
 {
   Serial.begin(115200);
 
-  if (init_wifi()) { // Connected to WiFi
+  if (init_wifi()) { // 连接wifi
     internet_connected = true;
     Serial.println("Internet connected");
   }
