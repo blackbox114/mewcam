@@ -28,12 +28,12 @@ config.jpeg_quality = 10;（10-63）越小照片质量最好
 #include <ArduinoJson.h>
 
 /*********************需要修改的地方**********************/
-const char* ssid = "newhtc";           //WIFI名称
-const char* password = "qq123456";     //WIFI密码
-int capture_interval = 20*1000;        // 默认20秒上传一次，可更改（本项目是自动上传，如需条件触发上传，在需要上传的时候，调用take_send_photo()即可）
+const char* ssid = "XieTongChuangXin";
+const char* password = "xietongchuangxin666";
+int capture_interval = 60*1000;        // 默认20秒上传一次，可更改（本项目是自动上传，如需条件触发上传，在需要上传的时候，调用take_send_photo()即可）
 const char*  post_url = "http://images.bemfa.com/upload/v1/upimages.php"; // 默认上传地址
-const char*  uid = "4d9ec352e0376f2110a0c601a2857225";    //用户私钥，巴法云控制台获取
-const char*  topic = "mypicture";     //主题名字，可在控制台新建
+const char*  uid = "4c1a121f45bdf25a83bce56047be0562";    //用户私钥，巴法云控制台获取
+const char*  topic = "3Dprint";     //主题名字，可在控制台新建
 /********************************************************/
 
 
